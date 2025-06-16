@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import StudentForm from './components/StudentForm';
 import StudentTable from './components/StudentTable';

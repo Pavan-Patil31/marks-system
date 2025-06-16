@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaUser, FaCalendarAlt, FaBook, FaPaperPlane, FaEraser } from 'react-icons/fa';
 
 const StudentForm = ({ formData, handleInputChange, handleSubmit, handleClear, editIndex }) => {
