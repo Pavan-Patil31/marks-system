@@ -54,10 +54,10 @@ const StudentForm = ({ formData, handleInputChange, handleSubmit, handleClear, e
         ))}
         
         <div className="form-group">
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-success">
             <FaPaperPlane /> {editIndex !== null ? 'Update' : 'Submit'}
           </button>
-          <button type="button" className="btn btn-secondary" onClick={handleClear}>
+          <button type="button" className="btn btn-danger" onClick={handleClear}>
             <FaEraser /> Clear
           </button>
         </div>

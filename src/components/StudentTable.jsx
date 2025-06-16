@@ -20,7 +20,7 @@ const StudentTable = ({ students, handleEdit, handleDelete }) => {
     <div className="table-container">
       <h2 className="form-title">Student Records</h2>
       {students.length === 0 ? (
-        <p>No student records found. Add some using the form.</p>
+        <p>No student records found. Add some using given form.</p>
       ) : (
         <table className="table">
           <thead>
